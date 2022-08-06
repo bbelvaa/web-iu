@@ -1,0 +1,52 @@
+body {
+    margin: 10px;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/creative_room/v800-mynt-21.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=cee57314ffdf9cbda1725e14e647de6a");
+    background-repeat: repeat-x;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.polaroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.polaroid-text {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.about {
+    text-align: center;
+    color: chocolate;
+}
+
+.navbar {
+    background-color: burlywood;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    align: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: burlywood;
+}
